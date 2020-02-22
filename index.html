@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script src="/dist/index.js"></script> -->
+  <title>hello world</title>
+</head>
+<body>
+  <h1>Web DB</h1>
+  <script type="module">
+    import  db  from './dist/index.js'
+
+    db.set('--homie--', 'aNumber', 123)
+    db.set('--homie--', 'aString', 'Anakin! you were the chosen one!')
+    // db.set('--homie--', 'anArray', [3,24,89,52])
+    // const itemFromLocalStorage = db.get('--homie--','aNumber')
+    // const itemFromLocalStorage2 = db.get('--homie--','aString')
+    // const itemFromLocalStorage3 = db.get('--homie--','aString')
+    // console.log('number', itemFromLocalStorage)
+    // console.log('strin', itemFromLocalStorage2)
+    // console.log('array', itemFromLocalStorage3)
+
+    // webDB.remove('aNumber')
+
+    // -webDB: {"anArray":[1,2,3,4,5],"aNumber":123,"anObject":{"hello":"db"}}
+
+  </script>
+</body>
+</html>
