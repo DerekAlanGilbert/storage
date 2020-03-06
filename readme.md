@@ -1,12 +1,12 @@
 ## Usage
 ---
 
-```js
+```es6
 import Storage from '@derekalangilbert/Storage'
 
 // or
 
-Import {Get, Set, Update, Delete, Flush} from '@derekalangilbert/Storage'
+Import { Get, Set, Update, Delete, Flush } from '@derekalangilbert/Storage'
 
 const fooObject = {hello: 'world'}
 
