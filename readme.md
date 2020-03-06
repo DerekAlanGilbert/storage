@@ -2,8 +2,20 @@
 ---
 
 ```js
-import db from 'webdb'
+import Storage from '@derekalangilbert/Storage'
 
-  db.set(id, key, value)
+// or
 
+Import {Get, Set, Update, Delete, Flush} from '@derekalangilbert/Storage'
+
+const fooObject = {hello: 'world'}
+
+  Storage.set('myStorage', foo, fooObject)
+  Storage.set('myStorage', anotherFoo, 'cool new string')
+ 
+  // in localStorage you would now have 
+  myStorage : {
+     foo: {hello: 'world'},
+     anotherFoo: 'cool new string'
+      }
 ```
